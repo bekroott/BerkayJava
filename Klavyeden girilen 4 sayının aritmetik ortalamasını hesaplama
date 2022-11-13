@@ -1,0 +1,27 @@
+package aritmetikort;
+import java.util.Scanner;
+
+public class aritmetikortalama {
+	public static void main(String[] args) {
+	
+Scanner girilensayi=new Scanner(System.in);
+
+System.out.println("ilk sayiyi girin");
+		int sayi1 = girilensayi.nextInt();
+System.out.println("ikinci sayiyi girin");
+        int sayi2 = girilensayi.nextInt();
+
+System.out.println("ucuncu sayiyi girin");
+        int sayi3 = girilensayi.nextInt();
+        
+System.out.println("dorduncu sayiyi girin");
+        int sayi4 = girilensayi.nextInt();
+
+int toplam = sayi1+sayi2+sayi3+sayi4;
+
+double aritmetikortalamaa=toplam/4.0;
+
+System.out.println("girilen sayilarin aritmetik ortalamasi=" +aritmetikortalamaa);
+	}
+
+}
